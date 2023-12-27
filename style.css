@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: system-ui;
+}
+
+html, body {
+  width: 100%;
+  height: 100vh;
+  background: #11235A;
+  display: flex;
+  align-items: center;
+}
+
+.container {
+  padding: 50px;
+  width: 90%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.container .content-box {
+  padding: 0 50px ;
+  width: 50%;
+}
+
+.content-box h1 {
+  font-size: 50px;
+  font-weight: 500;
+  color: #fff;
+}
+
+.content-box .password-text {
+  display: block;
+  color: #65B741;
+  width: 420px;
+  border-bottom: 4px solid #539165;
+/*   text-decoration: underline; */
+  margin-bottom: 20px;
+  
+}
+
+.content-box .text-pass {
+  position: relative;
+  height: 40px;
+  margin-bottom: 20px;
+}
+
+.content-box .text-pass input {
+  width: 100%;
+  height: 100%;
+  padding: 20px 10px;
+  font-size: 20px;
+  border: none;
+  outline: none;
+  border-radius: 5px; 
+}
+
+
+.content-box .text-pass i {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translate(-50%, -50%);
+  font-size: 22px;
+  color: #539165;
+  cursor: pointer;
+}
+
+.content-box .generate-box {
+  position: relative;
+}
+
+.content-box .generate-box i {
+  position: absolute;
+  top: 50%;
+  left: 20px;
+  transform: translate(-50%, -50%);
+  font-size: 24px;
+  color: #fff;
+}
+.content-box .generate-box button {
+  padding: 20px 10px;
+  font-size: 20px;
+  width: 50%;
+  background:#5D9C59; 
+  color:#fff;
+  font-weight: 600;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+}
+
+.container .image img {
+    width: 600px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 5px;
+}
